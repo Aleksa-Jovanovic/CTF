@@ -29,6 +29,10 @@ public sealed class Game
     public static Game StartActionPhase(IEnumerable<PlayerId> players)
     {
         var turnOrder = players.ToArray();
+        if (turnOrder.Distinct().Count() != turnOrder.Length)
+        {
+            throw new ArgumentException("Player IDs must be unique.", nameof(players));
+        }
 
         if (turnOrder.Length < 2)
         {
