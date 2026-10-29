@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/CTF.Core/CTF.Core.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/CTF.Core.Tests/CTF.Core.Tests.csproj" />
+  </Folder>
+</Solution>
