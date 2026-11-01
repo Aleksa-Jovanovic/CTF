@@ -2,6 +2,11 @@
   <Folder Name="/src/">
     <Project Path="src/CTF.Core/CTF.Core.csproj" />
   </Folder>
+  <Folder Name="/src/CTF.Godot/">
+    <Project Path="src/CTF.Godot/CTF.csproj">
+      <BuildType Project="Debug" />
+    </Project>
+  </Folder>
   <Folder Name="/tests/">
     <Project Path="tests/CTF.Core.Tests/CTF.Core.Tests.csproj" />
   </Folder>

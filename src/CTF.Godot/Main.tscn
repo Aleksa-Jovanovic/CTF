@@ -1,0 +1,25 @@
+[gd_scene format=3 uid="uid://dgj6bvb3l4ba1"]
+
+[ext_resource type="Script" uid="uid://cl715t2tt0xbv" path="res://Main.cs" id="1_glv2v"]
+
+[node name="Main" type="Control" unique_id=2063349165]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_glv2v")
+
+[node name="TurnPanel" type="VBoxContainer" parent="." unique_id=1520290130]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="CurrentPlayerLabel" type="Label" parent="TurnPanel" unique_id=242605994]
+layout_mode = 2
+text = "Player 1's turn"
+
+[node name="PassButton" type="Button" parent="TurnPanel" unique_id=957085513]
+layout_mode = 2
+text = "Pass"
