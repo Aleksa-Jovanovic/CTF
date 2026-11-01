@@ -20,6 +20,21 @@ offset_bottom = 40.0
 layout_mode = 2
 text = "Player 1's turn"
 
+[node name="PlayerInfoLabel" type="Label" parent="TurnPanel" unique_id=2037996375]
+layout_mode = 2
+text = "Player resources"
+
+[node name="PowerPlantButton" type="Button" parent="TurnPanel" unique_id=1204949685]
+layout_mode = 2
+text = "Power Plant (11 M€)"
+
+[node name="EndTurnButton" type="Button" parent="TurnPanel" unique_id=343611113]
+layout_mode = 2
+text = "End turn"
+
 [node name="PassButton" type="Button" parent="TurnPanel" unique_id=957085513]
 layout_mode = 2
 text = "Pass"
+
+[node name="FeedbackLabel" type="Label" parent="TurnPanel" unique_id=288631077]
+layout_mode = 2
